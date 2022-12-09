@@ -19,3 +19,30 @@ h1 {
   background-color: skyblue;
   color: black;
 }
+
+.margin-heading {
+  margin-top: 5rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.about-container {
+  margin-top: 12vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  min-height: 84.4vh;
+}
+
+.about-card-img {
+  height: 70vh;
+  width: 75vw;
+}
+
+.line-height-about {
+  line-height: 7vh;
+}
+
+.about-text{
+  font-size: 16px;
+}

@@ -6,7 +6,7 @@ export class NewsItem extends Component {
         let { title, description, urlToImage, url, author, source, time } = this.props;
         return (
             <>
-                <div className="my-3">
+                <div className="my-2">
                     <div className="card bg-dark text-light">
                         {/* NewsItem Source Badge*/}
                         <span className="position-absolute top-0 start-0 translate-end badge rounded-pill bg-danger">{source}</span>
